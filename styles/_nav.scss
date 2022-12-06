@@ -1,0 +1,33 @@
+@import "./global";
+
+
+header{
+  
+    nav{
+       
+        ul{
+            list-style-type: none;
+            display: flex;
+                align-items: center;
+                justify-content: flex-end;
+            li {
+                
+                .logo{
+                    text-transform: uppercase;
+                    font-size: 28px;
+                    font-family: $font-family;
+                    cursor: pointer;
+                    margin: auto;
+                }
+               a {
+                color: $font-color;
+                font-family: $font-family;
+                text-decoration: none;
+                 font-size: 18px;
+                 padding: 10px;
+              
+               }
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+$font-color: #ffffff;
+$background-color: #08022D;
+$underline-color: #FFD600;
+$footer-color:  #9E9DA6;
+$box-color: #3D20EF;
+$font-family: 'Poppins', sans-serif;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: $font-color;
+    background-color: $background-color;
+}
+
+h1,h2,h3,h4,button {
+    font-family: $font-family;
+    font-weight: 600;
+    color: $font-color;
+}
+h1{
+    font-size: 70px;
+ text-align: center;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 38px;
+}
+h4{
+    font-size: 20px;
+}
+p{
+    font-family: $font-family;
+    font-weight: 400;
+    font-size: 18px;
+}
+button{
+    font-size: 18px;   
+}
