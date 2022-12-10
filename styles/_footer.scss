@@ -10,20 +10,19 @@
         }
        h4{
         margin-bottom: 2rem;
-        font-family: "poppins";
-        font-weight: 400;
-        text-align: center;
+        font-family: $font-family;
+        font-weight:400;
+       
     }
     p{
-        font-family: "poppins";
+        font-family: $font-family;
         font-weight: 400;
     }
         ul{ 
-            text-align: center;
-        
+       
             li{
                 font-size: 22px;
-                font-family: "poppins";
+               font-family: $font-family;
                 line-height: 1.8rem;
                
             }
@@ -35,7 +34,7 @@
 }
 .line{
     border-top: 2px solid $footer-color;
-    margin:2rem 8rem;
+    margin:3rem 10rem;
     p{
         font-size: 18px;
         color: $footer-color;

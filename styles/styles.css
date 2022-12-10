@@ -16,6 +16,8 @@ h1, h2, h3, h4, button {
 h1 {
   font-size: 70px;
   text-align: center;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
 }
 
 h2 {
@@ -56,7 +58,7 @@ ul {
   background-color: transparent;
 }
 .heading-section h2 {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-family: 400;
   background-color: transparent;
 }
@@ -77,6 +79,7 @@ nav ul li a {
   text-decoration: none;
   padding: 20px;
   font-size: 18px;
+  font-family: "Poppins", sans-serif;
 }
 nav ul li .logo {
   float: left;
@@ -95,26 +98,22 @@ nav ul li .logo {
 }
 .grid-container div h4 {
   margin-bottom: 2rem;
-  font-family: "poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
-  text-align: center;
 }
 .grid-container div p {
-  font-family: "poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
-}
-.grid-container div ul {
-  text-align: center;
 }
 .grid-container div ul li {
   font-size: 22px;
-  font-family: "poppins";
+  font-family: "Poppins", sans-serif;
   line-height: 1.8rem;
 }
 
 .line {
   border-top: 2px solid #9E9DA6;
-  margin: 2rem 8rem;
+  margin: 3rem 10rem;
 }
 .line p {
   font-size: 18px;
@@ -139,6 +138,8 @@ h1, h2, h3, h4, button {
 h1 {
   font-size: 70px;
   text-align: center;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
 }
 
 h2 {
@@ -179,7 +180,7 @@ ul {
   background-color: transparent;
 }
 .heading-section h2 {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-family: 400;
   background-color: transparent;
 }
