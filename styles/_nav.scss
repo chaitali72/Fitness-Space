@@ -10,12 +10,14 @@ nav{
                 padding: 20px;
                 font-size: 18px;
                 font-family: $font-family;
+                cursor: pointer;
 
             }
             .logo{
                 float: left;
               font-size: 28px;
               font-weight: 600;
+              cursor: pointer;
             }
         }
     }
