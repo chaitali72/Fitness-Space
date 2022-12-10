@@ -1,0 +1,33 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin:8rem;
+    div{
+        img{
+            width: 50px;
+        }
+       h4{
+        margin-bottom: 2rem;
+        font-family: "poppins";
+    }
+    p{
+        font-family: "poppins";
+    }
+        ul{
+          
+            li{
+                font-size: 22px;
+                font-family: "poppins";
+                line-height: 1.8rem;
+               
+            }
+        }
+       
+      
+    }
+   
+}
+.line{
+    border-top: 2px solid white;
+   margin: 8rem;
+}

@@ -8,8 +8,15 @@ $font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border:0;
     color: $font-color;
     background-color: $background-color;
+}
+@mixin box{
+   padding: 12px 36px;
+   border: none;
+   border-radius: 5px;
+   text-align: center;
 }
 
 h1,h2,h3,h4,button {
@@ -29,6 +36,7 @@ h3{
 }
 h4{
     font-size: 20px;
+  
 }
 p{
     font-family: $font-family;
@@ -37,4 +45,10 @@ p{
 }
 button{
     font-size: 18px;   
+    background-color: $box-color;
+ @include box()
+
+}
+ul {
+    list-style: none;
 }

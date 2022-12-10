@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: 0;
   color: #ffffff;
   background-color: #08022D;
 }
@@ -37,12 +38,75 @@ p {
 
 button {
   font-size: 18px;
+  background-color: #3D20EF;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+nav ul .logo {
+  margin: 0;
+  font-size: 22px;
+}
+nav ul li {
+  margin: 1 rem;
+  display: block;
+}
+nav ul li a {
+  font-size: 18px;
+  padding: 1rem 2vw;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  transition: 0.3s color, 0.3s transform;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 8rem;
+}
+.grid-container div img {
+  width: 50px;
+}
+.grid-container div h4 {
+  margin-bottom: 2rem;
+  font-family: "poppins";
+}
+.grid-container div p {
+  font-family: "poppins";
+}
+.grid-container div ul li {
+  font-size: 22px;
+  font-family: "poppins";
+  line-height: 1.8rem;
+}
+
+.line {
+  border-top: 2px solid white;
+  margin: 8rem;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: 0;
   color: #ffffff;
   background-color: #08022D;
 }
@@ -78,48 +142,180 @@ p {
 
 button {
   font-size: 18px;
+  background-color: #3D20EF;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
 }
 
-header nav ul {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-header nav ul li .logo {
-  text-transform: uppercase;
-  font-size: 28px;
-  font-family: "Poppins", sans-serif;
-  cursor: pointer;
-  margin: auto;
-}
-header nav ul li a {
-  color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  text-decoration: none;
-  font-size: 18px;
-  padding: 10px;
+ul {
+  list-style: none;
 }
 
-main {
-  position: relative;
-}
-main h1 {
-  margin: 20px;
-}
-main .badge-img {
-  position: absolute;
-  left: 50%;
-  top: 20%;
-  transform: -50%, -50%;
-  width: 50px;
-  position: fixed;
-}
 main .header-img {
+  height: 50vh;
+  width: 80vw;
+  padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  display: block;
+}
+main .container {
+  display: flex;
+  margin: 0 11rem;
+  margin-top: 8rem;
+}
+main .container .child-1 {
+  margin-right: 15rem;
+}
+main .container .child-1 p {
+  padding-bottom: 2rem;
+}
+main .container .child-2 .child-img {
+  width: 400px;
+  height: 500px;
+}
+main .container .child-2-container {
+  width: 300px;
+  height: 350px;
+  background-color: #3D20EF;
+  color: #ffffff;
+  font-size: 48px;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  display: block;
+  top: -5rem;
+  line-height: 1.5em;
+  padding-top: 55px;
+  transform: translate(-8vw, -7vw);
+}
+main .exercise-container {
+  display: flex;
+  margin: 0 11rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  position: relative;
+}
+main .exercise-container img {
+  width: 770px;
+  height: 500px;
+}
+main .exercise-container h3 {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  background-color: transparent;
+}
+main .exercise-container-second-row {
+  display: flex;
+  margin: 2rem 11rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  position: relative;
+}
+main .exercise-container-second-row img {
+  width: 510px;
+  height: 500px;
+}
+main .exercise-container-second-row .first-line {
+  position: absolute;
+  bottom: 3px;
+  left: 16px;
+  background-color: transparent;
+}
+main .exercise-container-second-row .second-line {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  background-color: transparent;
+}
+main .exercise-container-second-row .third-line {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  background-color: transparent;
+}
+main .clasees-section {
+  width: 100%;
+  height: 100%;
+  background-image: url("../Option2-assets/image7.jpg");
+  padding: 20px;
+}
+main .clasees-section .head-section {
+  background-color: transparent;
+}
+main .clasees-section .head-section h2 {
+  background-color: transparent;
+}
+main .clasees-section .head-section p {
+  background-color: transparent;
+}
+main .clasees-section form {
+  margin: 7rem;
+  background-color: transparent;
+}
+main .clasees-section form lable {
+  font-size: 18px;
+}
+main .clasees-section form input[type=text] {
+  background-color: #ffffff;
+  width: 17%;
+  padding: 12px 20px;
+  color: black;
+  margin: 1rem;
+  font-size: 18px;
+  box-sizing: border-box;
+  outline: none;
+}
+main .clasees-section form input[type=email] {
+  background-color: #ffffff;
+  width: 35%;
+  margin: 1rem;
+  padding: 12px 20px;
+  color: black;
+  font-size: 18px;
+  box-sizing: border-box;
+  outline: none;
+}
+main .clasees-section form textarea {
+  width: 60%;
+  height: 250px;
+  background-color: #ffffff;
+  margin: 2rem;
+}
+main .join-section {
+  margin: 7rem;
+}
+main .join-section .intro-section {
+  margin: 20px;
+}
+main .join-section .intro-section .vl {
+  border-left: 6px solid #FFD600;
+  height: 300px;
+  padding: 50px;
+}
+main .join-section .intro-section .vl .intro-p {
+  width: 700px;
+}
+main .join-section .intro-section .vl .card {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+main .join-section .intro-section .vl .card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+main .join-section .intro-section .vl .card div {
+  padding-left: 20px;
+}
+main .join-section .intro-section .boy-exer {
+  margin-top: 50px;
   width: 80vw;
   display: block;
   height: 50vh;
-  padding-top: 20px;
 }/*# sourceMappingURL=styles.css.map */
