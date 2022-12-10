@@ -49,37 +49,46 @@ ul {
   list-style: none;
 }
 
+.heading-section {
+  margin-left: 9rem;
+  width: 500px;
+  padding-bottom: 20px;
+  background-color: transparent;
+}
+.heading-section h2 {
+  font-family: "Poppins";
+  font-family: 400;
+  background-color: transparent;
+}
+.heading-section h2 b {
+  color: #FFD600;
+}
+.heading-section p {
+  background-color: transparent;
+}
+
 nav {
-  margin: 0 auto;
-  padding-top: 1rem;
-}
-nav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  width: 100%;
-}
-nav ul .logo {
   margin: 0;
-  font-size: 22px;
-}
-nav ul li {
-  margin: 1 rem;
-  display: block;
+  overflow: hidden;
 }
 nav ul li a {
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
   font-size: 18px;
-  padding: 1rem 2vw;
-  font-weight: bold;
 }
-nav ul li a:hover {
-  transition: 0.3s color, 0.3s transform;
+nav ul li .logo {
+  float: left;
+  font-size: 28px;
+  font-weight: 600;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  margin: 8rem;
+  margin: 0 10rem;
+  font-weight: 400;
 }
 .grid-container div img {
   width: 50px;
@@ -87,9 +96,15 @@ nav ul li a:hover {
 .grid-container div h4 {
   margin-bottom: 2rem;
   font-family: "poppins";
+  font-weight: 400;
+  text-align: center;
 }
 .grid-container div p {
   font-family: "poppins";
+  font-weight: 400;
+}
+.grid-container div ul {
+  text-align: center;
 }
 .grid-container div ul li {
   font-size: 22px;
@@ -98,8 +113,12 @@ nav ul li a:hover {
 }
 
 .line {
-  border-top: 2px solid white;
-  margin: 8rem;
+  border-top: 2px solid #9E9DA6;
+  margin: 2rem 8rem;
+}
+.line p {
+  font-size: 18px;
+  color: #9E9DA6;
 }
 
 * {
@@ -153,6 +172,27 @@ ul {
   list-style: none;
 }
 
+.heading-section {
+  margin-left: 9rem;
+  width: 500px;
+  padding-bottom: 20px;
+  background-color: transparent;
+}
+.heading-section h2 {
+  font-family: "Poppins";
+  font-family: 400;
+  background-color: transparent;
+}
+.heading-section h2 b {
+  color: #FFD600;
+}
+.heading-section p {
+  background-color: transparent;
+}
+
+main {
+  margin: 2rem;
+}
 main .header-img {
   height: 50vh;
   width: 80vw;
@@ -168,6 +208,9 @@ main .container {
 }
 main .container .child-1 {
   margin-right: 15rem;
+}
+main .container .child-1 h2 b {
+  color: #FFD600;
 }
 main .container .child-1 p {
   padding-bottom: 2rem;
@@ -192,52 +235,6 @@ main .container .child-2-container {
   padding-top: 55px;
   transform: translate(-8vw, -7vw);
 }
-main .exercise-container {
-  display: flex;
-  margin: 0 11rem;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  position: relative;
-}
-main .exercise-container img {
-  width: 770px;
-  height: 500px;
-}
-main .exercise-container h3 {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-  background-color: transparent;
-}
-main .exercise-container-second-row {
-  display: flex;
-  margin: 2rem 11rem;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-  position: relative;
-}
-main .exercise-container-second-row img {
-  width: 510px;
-  height: 500px;
-}
-main .exercise-container-second-row .first-line {
-  position: absolute;
-  bottom: 3px;
-  left: 16px;
-  background-color: transparent;
-}
-main .exercise-container-second-row .second-line {
-  position: absolute;
-  top: 5px;
-  right: 15px;
-  background-color: transparent;
-}
-main .exercise-container-second-row .third-line {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-  background-color: transparent;
-}
 main .clasees-section {
   width: 100%;
   height: 100%;
@@ -254,40 +251,47 @@ main .clasees-section .head-section p {
   background-color: transparent;
 }
 main .clasees-section form {
-  margin: 7rem;
-  background-color: transparent;
+  margin-left: 9rem;
+  background: transparent;
 }
-main .clasees-section form lable {
-  font-size: 18px;
+main .clasees-section form label {
+  display: block;
+  margin-bottom: 8px;
+  background: transparent;
 }
-main .clasees-section form input[type=text] {
-  background-color: #ffffff;
-  width: 17%;
-  padding: 12px 20px;
-  color: black;
-  margin: 1rem;
+main .clasees-section form input[type=text], main .clasees-section form input[type=email] {
+  border: none;
   font-size: 18px;
-  box-sizing: border-box;
-  outline: none;
-}
-main .clasees-section form input[type=email] {
-  background-color: #ffffff;
-  width: 35%;
-  margin: 1rem;
-  padding: 12px 20px;
-  color: black;
-  font-size: 18px;
-  box-sizing: border-box;
-  outline: none;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 50%;
+  background-color: #e8eeef;
+  color: #08022D;
+  margin-bottom: 30px;
 }
 main .clasees-section form textarea {
-  width: 60%;
-  height: 250px;
-  background-color: #ffffff;
-  margin: 2rem;
+  border: none;
+  font-size: 18px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 30%;
+  background-color: #e8eeef;
+  color: #08022D;
+  margin-bottom: 30px;
 }
 main .join-section {
   margin: 7rem;
+  background-color: transparent;
+}
+main .join-section h2 {
+  font-weight: 400;
+}
+main .join-section h2 b {
+  color: #FFD600;
 }
 main .join-section .intro-section {
   margin: 20px;
@@ -318,4 +322,61 @@ main .join-section .intro-section .boy-exer {
   width: 80vw;
   display: block;
   height: 50vh;
+}
+
+.exercise-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 9rem;
+  margin-right: 9rem;
+  gap: 10px;
+}
+.exercise-container .box-1 {
+  position: relative;
+  display: inline-block;
+}
+.exercise-container .box-1 img {
+  width: 100%;
+  display: inline-block;
+  height: 50vh;
+  border-bottom: 5px solid #FFD600;
+}
+.exercise-container .box-1 .text {
+  position: absolute;
+  z-index: 999;
+  bottom: 5%;
+  left: 10px;
+  background-color: transparent;
+}
+.exercise-container .box-1 .text h3 {
+  background: transparent;
+}
+
+.exercise-container-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 9rem;
+  margin-right: 9rem;
+  margin-bottom: 5rem;
+  gap: 10px;
+  margin-top: 1rem;
+}
+.exercise-container-two .box-1 {
+  position: relative;
+  display: inline-block;
+}
+.exercise-container-two .box-1 img {
+  width: 100%;
+  height: 50vh;
+  border-bottom: 5px solid #FFD600;
+}
+.exercise-container-two .box-1 .text {
+  position: absolute;
+  z-index: 999;
+  bottom: 5%;
+  left: 10px;
+  background-color: transparent;
+}
+.exercise-container-two .box-1 .text h3 {
+  background: transparent;
 }/*# sourceMappingURL=styles.css.map */

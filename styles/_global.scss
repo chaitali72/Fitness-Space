@@ -52,3 +52,21 @@ button{
 ul {
     list-style: none;
 }
+
+.heading-section{
+    margin-left: 9rem;
+    width: 500px;
+    padding-bottom: 20px;
+    background-color: transparent;
+    h2{
+font-family:'Poppins';
+font-family: 400;
+background-color: transparent;
+b{
+    color: $underline-color;
+}
+    }
+    p{
+        background-color: transparent;
+    }
+}

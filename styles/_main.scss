@@ -1,7 +1,7 @@
 @import "./global";
 
 main{
-
+    margin: 2rem;
     .header-img{
        height: 50vh;
        width: 80vw;
@@ -15,7 +15,11 @@ main{
     margin:0  11rem;
     margin-top: 8rem;
     .child-1{
-      
+      h2{
+        b{
+            color: $underline-color;
+        }
+      }
         margin-right: 15rem;
         p{
             padding-bottom: 2rem;
@@ -45,56 +49,6 @@ main{
   }
     }
   }
-    .exercise-container{
-        display: flex;
-        margin:0 11rem;
-        grid-template-columns: 1fr 1fr;
-        gap:20px;
-        position:relative;
-
-        img{
-            width: 770px;
-            height: 500px;
-        }
-        h3{
-                position: absolute;
-                bottom: 8px;
-                left: 16px;
-                background-color: transparent;
-                
-        }
-      &-second-row{
-        display: flex;
-        margin:2rem 11rem;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap:20px;
-        position:relative;
-        img{
-            width: 510px;
-            height: 500px;
-        } 
-         .first-line{
-        position:absolute;
-        bottom: 3px;
-        left: 16px;
-        background-color: transparent;
-            }
-            .second-line{
-                position: absolute;
-                top: 5px;
-                right: 15px;
-                background-color: transparent;
-            }
-            .third-line{
-                position:absolute;
-                bottom:8px;
-                right: 16px;
-                background-color: transparent;
-            }
-      
-      }
-       
-    }
     .clasees-section{
        width: 100%;
        height: 100%;
@@ -110,47 +64,53 @@ main{
         background-color: transparent;
     }
     form {
-    margin:7rem;
-    background-color: transparent;
-    lable{
-        font-size: 18px;
-    };
-  
-    input[type=text]{
-        background-color: $font-color;
-        width: 17%;
-        padding: 12px 20px;
-        // margin: 10px 0;
-        color:black;
-        margin: 1rem;
-        font-size: 18px;
-        box-sizing: border-box;
-        outline: none;
-    }
-    input[type=email]{
-        background-color: $font-color;
-        width: 35%;
-        margin: 1rem;
-        padding: 12px 20px;
-        // margin: 10px 0;
-        color:black;
-        font-size: 18px;
-        box-sizing: border-box;
-        outline: none; 
+        margin-left:9rem;
+        background: transparent;
+       
+            label {
+                display: block;
+                margin-bottom: 8px;
+                background: transparent;
+              }
     
-    }
-    textarea{
-        width: 60%;
-        height: 250px;
-        background-color: $font-color;
-        margin:2rem;
-    }
+        input[type="text"],input[type="email"]{
+  border: none;
+  font-size: 18px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 50%;
+  background-color: #e8eeef;
+color: $background-color;
+  margin-bottom: 30px;
+          }
+        textarea{
+            border: none;
+            font-size: 18px;
+            height: auto;
+            margin: 0;
+            outline: 0;
+            padding: 15px;
+            width: 30%;
+            background-color: #e8eeef;
+          color: $background-color;
+            margin-bottom: 30px;
+        }
+          
+        
 
 }
     }
     .join-section{
-  
         margin: 7rem;
+        background-color: transparent;
+        h2{
+            font-weight: 400;
+            b{
+                color: $underline-color;
+            }
+        }
       .intro-section {
         margin: 20px;
         .vl {

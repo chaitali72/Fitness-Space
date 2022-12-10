@@ -1,20 +1,26 @@
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    margin:8rem;
+    margin:0 10rem;
+    font-weight: 400;
     div{
+           
         img{
             width: 50px;
         }
        h4{
         margin-bottom: 2rem;
         font-family: "poppins";
+        font-weight: 400;
+        text-align: center;
     }
     p{
         font-family: "poppins";
+        font-weight: 400;
     }
-        ul{
-          
+        ul{ 
+            text-align: center;
+        
             li{
                 font-size: 22px;
                 font-family: "poppins";
@@ -28,6 +34,10 @@
    
 }
 .line{
-    border-top: 2px solid white;
-   margin: 8rem;
+    border-top: 2px solid $footer-color;
+    margin:2rem 8rem;
+    p{
+        font-size: 18px;
+        color: $footer-color;
+    }
 }
