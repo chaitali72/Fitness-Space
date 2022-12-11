@@ -58,16 +58,26 @@ ul {
   padding-bottom: 20px;
   background-color: transparent;
 }
-.heading-section h2 {
+.heading-section div {
+  display: flex;
+}
+.heading-section div h2 {
   font-family: "Poppins", sans-serif;
   font-family: 400;
   background-color: transparent;
 }
-.heading-section h2 b {
-  color: #FFD600;
-}
 .heading-section p {
   background-color: transparent;
+}
+
+.head-section {
+  width: 800px;
+  position: relative;
+}
+.head-section img {
+  float: left;
+  width: 50px;
+  margin-right: 20px;
 }
 
 nav {
@@ -183,16 +193,26 @@ ul {
   padding-bottom: 20px;
   background-color: transparent;
 }
-.heading-section h2 {
+.heading-section div {
+  display: flex;
+}
+.heading-section div h2 {
   font-family: "Poppins", sans-serif;
   font-family: 400;
   background-color: transparent;
 }
-.heading-section h2 b {
-  color: #FFD600;
-}
 .heading-section p {
   background-color: transparent;
+}
+
+.head-section {
+  width: 800px;
+  position: relative;
+}
+.head-section img {
+  float: left;
+  width: 50px;
+  margin-right: 20px;
 }
 
 main {
@@ -223,10 +243,13 @@ main .container {
   margin-top: 8rem;
 }
 main .container .child-1 {
-  margin-right: 15rem;
+  margin-right: 10rem;
+  position: relative;
 }
-main .container .child-1 h2 b {
-  color: #FFD600;
+main .container .child-1 img {
+  float: left;
+  width: 50px;
+  padding-right: 20px;
 }
 main .container .child-1 p {
   padding-bottom: 2rem;
@@ -255,16 +278,27 @@ main .clasees-section {
   width: 100%;
   height: 100%;
   background-image: url("../Option2-assets/image7.jpg");
-  padding: 20px;
+  background-position: cover;
 }
 main .clasees-section .head-section {
-  background-color: transparent;
+  width: 500px;
+  position: relative;
+  background: transparent;
+  margin-left: 9rem;
+}
+main .clasees-section .head-section img {
+  float: left;
+  width: 50px;
+  background: transparent;
 }
 main .clasees-section .head-section h2 {
-  background-color: transparent;
+  background: transparent;
 }
 main .clasees-section .head-section p {
-  background-color: transparent;
+  background: transparent;
+  margin-bottom: 2rem;
+  margin-left: 4rem;
+  text-align: justify;
 }
 main .clasees-section form {
   margin-left: 9rem;
@@ -301,16 +335,18 @@ main .clasees-section form textarea {
 }
 main .join-section {
   margin: 7rem;
-  background-color: transparent;
 }
-main .join-section h2 {
-  font-weight: 400;
+main .join-section .head-section {
+  width: 800px;
+  position: relative;
 }
-main .join-section h2 b {
-  color: #FFD600;
+main .join-section .head-section img {
+  float: left;
+  width: 50px;
+  margin-right: 20px;
 }
 main .join-section .intro-section {
-  margin: 20px;
+  margin: 30px 20px;
 }
 main .join-section .intro-section .vl {
   border-left: 6px solid #FFD600;
@@ -329,15 +365,40 @@ main .join-section .intro-section .vl .card img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
+  justify-content: center;
 }
 main .join-section .intro-section .vl .card div {
   padding-left: 20px;
+}
+main .join-section .intro-section .vl .card object {
+  margin-left: 11rem;
 }
 main .join-section .intro-section .boy-exer {
   margin-top: 50px;
   width: 80vw;
   display: block;
   height: 50vh;
+}
+
+.exer-container .head-section {
+  width: 500px;
+  position: relative;
+  background: transparent;
+  margin-left: 9rem;
+}
+.exer-container .head-section img {
+  float: left;
+  width: 50px;
+  background: transparent;
+}
+.exer-container .head-section h2 {
+  background: transparent;
+}
+.exer-container .head-section p {
+  background: transparent;
+  margin-bottom: 2rem;
+  margin-left: 4rem;
+  text-align: justify;
 }
 
 .exercise-container {

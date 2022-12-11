@@ -1,4 +1,26 @@
-
+.exer-container{
+    .head-section{
+        width: 500px;
+        position: relative;
+        background: transparent;
+        margin-left: 9rem;
+       
+        img{
+          float: left;
+          width: 50px; 
+          background: transparent;
+        }
+        h2{
+          background: transparent;
+        }
+        p{
+      background: transparent;
+      margin-bottom: 2rem;
+      margin-left: 4rem;
+      text-align: justify;
+        }
+       }
+}
 .exercise-container{
     display: grid;
     grid-template-columns: 1fr 1fr;

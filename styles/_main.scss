@@ -25,13 +25,15 @@ main{
    display: flex;
     margin:0  11rem;
     margin-top: 8rem;
+
     .child-1{
-      h2{
-        b{
-            color: $underline-color;
-        }
+      margin-right: 10rem;
+      position: relative;
+      img {
+        float: left;
+        width: 50px;
+       padding-right: 20px;
       }
-        margin-right: 15rem;
         p{
             padding-bottom: 2rem;
         }
@@ -63,17 +65,30 @@ main{
     .clasees-section{
        width: 100%;
        height: 100%;
-     background-image: url("../Option2-assets/image7.jpg");
-     padding: 20px;
-    .head-section{
+       background-image: url("../Option2-assets/image7.jpg");
+       background-position: cover;
+      .head-section{
+        width: 500px;
+        position: relative;
+        background: transparent;
+        margin-left: 9rem;
+       
+        img{
+          float: left;
+          width: 50px; 
+          background: transparent;
+        }
         h2{
-            background-color: transparent;
+          background: transparent;
         }
         p{
-            background-color: transparent;
+      background: transparent;
+      margin-bottom: 2rem;
+      margin-left: 4rem;
+      text-align: justify;
         }
-        background-color: transparent;
-    }
+      }
+   
     form {
         margin-left:9rem;
         background: transparent;
@@ -115,15 +130,21 @@ color: $background-color;
     }
     .join-section{
         margin: 7rem;
-        background-color: transparent;
-        h2{
-            font-weight: 400;
-            b{
-                color: $underline-color;
-            }
+        .head-section{
+          width: 800px;
+          position: relative;
+          img{
+            float: left;
+            width: 50px; 
+            margin-right: 20px;
+          }
+          
         }
+        
+       
       .intro-section {
-        margin: 20px;
+        margin:30px 20px;
+
         .vl {
             border-left: 6px solid $underline-color;
             height: 300px;
@@ -140,11 +161,14 @@ color: $background-color;
                     width: 80px;
                     height: 80px;
                     border-radius: 50%;
+                    justify-content: center;
                 }
                 div{
               padding-left: 20px;
                 }
-               
+               object{
+               margin-left: 11rem;
+               }
             }
         }
        .boy-exer {
